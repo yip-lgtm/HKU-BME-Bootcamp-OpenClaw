@@ -3,6 +3,8 @@
 > **Central progress & reflection log for the 24-weekend self-study bootcamp**
 > **Maintainer: Saba (葉) | Last updated: 2026-06-10**
 > **Launch date: 2026-06-20 (Sat) — Weekend 1 of 24**
+> **Mode: Weekend-only 12h/wk (Sat deep 6-8h + Sun review 4-6h)**
+> **Cross-project: Scenario C — 4 projects parallel (BME + PhysicsSelfStudy + iStructE paused + lgtm-trade paused)**
 
 ---
 
@@ -14,10 +16,13 @@
 | **Launch** | 2026-06-20 (Saturday) |
 | **End** | 2026-12-12 (Saturday) |
 | **Total weekends** | 24 |
-| **Hours per weekend** | 8-12 (Sat deep + Sun synthesis) |
-| **Total hours** | ~240 hours (estimated) |
+| **Hours per weekend** | **12 (Sat deep 6-8h + Sun review 4-6h)** |
+| **Total hours** | ~288 hours (estimated) |
 | **Primary goal** | HKU SBME MSc / CUHK BME MPhil application readiness |
 | **Aligned curriculum** | HKU BEng(BME) 37 courses |
+| **Mode** | Weekend-only (strict, no weekday study) |
+| **Repo** | https://github.com/yip-lgtm/HKU-BME-Bootcamp-OpenClaw |
+| **License** | MIT (open source) |
 
 ---
 
@@ -187,4 +192,63 @@ The HKU BME 24-Weekend Bootcamp represents a strategic **domain pivot**:
 
 ---
 
-*This file is updated weekly. Last update: 2026-06-10 (Pre-Launch).*
+*This file is updated weekly. Last update: 2026-06-10 (Pre-Launch, Scenario C confirmed).*
+
+---
+
+## 🔀 4-Project Parallel Coordination (Scenario C)
+
+**Confirmed: 2026-06-10 — User accepted Scenario C: 4 projects parallel**
+
+### Active Projects
+
+| Project | Status | Hours/wknd | Cron | Repo |
+|---------|--------|------------|------|------|
+| **PhysicsSelfStudy** | 🟢 Active (pre-study) | 8.5h | Sat 09:00 + Sun 14:00 HKT | yip-lgtm/PhysicsSelfStudy |
+| **HKU-BME-Bootcamp-OpenClaw** | 🆕 Pre-launch (W1 starts 6/20) | **12h** | Sat 14:00 + Sun 09:00 HKT (待 register) | yip-lgtm/HKU-BME-Bootcamp-OpenClaw |
+| **iStructE** | ⏸️ Paused (S7 B2 + S8/S9 pending) | 0-4h on-demand | (paused) | yip-lgtm/istructe-bootcamp |
+| **lgtm-trade** | ⏸️ Paused (yfinance blocked) | 0 | (paused) | yip-lgtm/lgtm-trade (private) |
+
+### Weekly Time Block
+
+| Time Slot | Project | Hours |
+|-----------|---------|-------|
+| **Sat 09:00-13:00** | PhysicsSelfStudy Theory Block | 4h |
+| **Sat 14:00-18:00** | BME Bootcamp (Phase 1: Life Sci) | 4h |
+| **Sat 19:00-22:00** | BME Bootcamp (continued) | 3h |
+| **Sun 09:00-13:00** | BME Bootcamp (synthesis + deliverable) | 4h |
+| **Sun 14:00-18:00** | PhysicsSelfStudy Computational Sprint | 4h |
+| **Sun 18:30-19:00** | PhysicsSelfStudy Weekly Review | 0.5h |
+| **Sun 19:00-20:00** | iStructE (optional, 1×/月) | 0-1h |
+| **Weekday evenings** | PhysicsSelfStudy pre-study + BME readings | 1-2h/day |
+| **Sat 22:00-23:00** | Cross-Project Weekly Update | 1h |
+| **TOTAL WEEKEND** | | **20.5h (active) + 1h (review)** |
+
+### Priority Hierarchy (P0-P3)
+
+| Rank | Project | When |
+|------|---------|------|
+| **P0 (must)** | Current-weekend BME + Physics deliverables | Hard deadlines |
+| **P1 (should)** | Next-weekend pre-reading | For next session |
+| **P2 (could)** | iStructE S7 Block 2 / S8 draft | Optional, on-demand |
+| **P3 (later)** | lgtm-trade yfinance unblock | Blocked, no urgency |
+
+### Burnout Watch Indicators (auto-monitored)
+
+| Signal | Threshold | Action |
+|--------|-----------|--------|
+| Weekend hours < 12h | 2 consecutive | Suggest scaling back |
+| 1 project missed weekend | Once | Catch up next weekend |
+| 2 projects missed weekend | Same weekend | Critical: review priorities |
+| Sleep < 6h | After weekend | Push back hard, suggest rest |
+
+### Cross-Project Resource Sharing
+
+- **Python stack**: shared across Physics + BME
+- **Git workflow**: standardized (commits per weekend)
+- **Master_Tracking pattern**: adapted from PhysicsSelfStudy
+- **OpenClaw agents**: 4 BME agents (BME_Tutor, Code_Lab_Assistant, Paper_Scanner, Progress_Tracker) | 4 Physics cron rules already running
+
+---
+
+*Last update: 2026-06-10 — Scenario C confirmed, BME launch 6/20*
