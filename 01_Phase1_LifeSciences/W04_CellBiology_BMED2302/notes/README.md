@@ -1,623 +1,779 @@
-# Week 4 Notes — Cell Biology & Tissue Structure
+# Week 4 Notes — Cell Biology & Tissue Structure (BMED2302)
 
 ## 問題 1：這個領域所有專家共享的 5 個核心心智模型是什麼？
 
-### 1. 流動鑲嵌模型 (Fluid Mosaic Model)
-**Singer & Nicolson (1972)** — 細胞膜結構
-- 磷脂雙層為流體，蛋白質如「島嶼」鑲嵌其中
-- 膜蛋白可横向擴散
-- 膽固醇調節膜流動性
-- **數字**: 膜厚 ~7-10 nm，擴散係數 D ~1 μm²/s
+### 1. Singer-Nicolson 流動鑲嵌模型 (Fluid Mosaic Model)
+**Singer & Nicolson (1972)** — 細胞膜結構的里程碑論文
 
-### 2. 內膜系統 (Endomembrane System)
-**Palade (1975 Nobel)** — 分泌途徑的闡明
-- 內質網 → 高爾基體 → 分泌小泡 → 細胞膜
-- 蛋白質糖基化、折疊、分揀
-- **數字**: ER 摩爾摺疊 10-20 μm²/細胞
+- **核心概念**: 細胞膜是二維液體，蛋白質如「島嶼」漂浮在磷脂雙層的「海洋」中
+- **數字**:
+  - 膜厚 ~7-10 nm
+  - 磷脂分子面積 ~0.5 nm²
+  - 蛋白質佔膜重量 40-50%
+  - 擴散係數 D ~1 μm²/s (lateral diffusion)
+- **結構組件**:
+  - 磷脂雙層 (phospholipid bilayer) — 疏水尾部相對
+  - 膽固醇 (cholesterol) — 調節膜流動性
+  - 膜蛋白 — 整合蛋白 (integral) vs 周邊蛋白 (peripheral)
+  - 糖萼 (glycocalyx) — 細胞表面碳水化合物
+- **BME 應用**: 藥物傳遞載體設計、膜蛋白藥物靶點、生物感測器膜
 
-### 3. 細胞骨架 (Cytoskeleton)
-**細胞骨架三系統: 微管、微絲、中間絲
-- 微管: α/β-tubulin 二聚體，中心粒組織
-- 微絲: F-actin，運動和形狀
-- 中間絲: vimentin, keratin，結構支持
+### 2. 區室化原理 (Compartmentalization)
+**Laplane (1970s)** — 細胞內膜系統
 
-### 4. 質膜轉運 (Membrane Transport)
-**Carrier proteins, channels, pumps
-- 被動轉運: 濃度梯度驅動
-- 主動轉運: ATP 驅動
-- 滲透壓: 維持細胞容積
+- **核心概念**: 細胞通過膜包圍的區室執行不同功能
+- **主要細胞器**:
+  - 細胞核 (nucleus) — DNA儲存、轉錄
+  - 粒線體 (mitochondria) — ATP產生
+  - 內質網 (ER) — 蛋白質折疊/合成
+  - 高爾基體 (Golgi) — 蛋白質加工/分揀
+  - 溶酶體 (lysosome) — 細胞消化
+  - 過氧化物酶體 (peroxisome) — 脂肪酸氧化
+- **膜結構差異**:
+  - 粒線體內膜: 蛋白質含量 80%，皺褶結構 (cristae)
+  - ER膜: 粗糙ER vs 光滑ER
+  - 核膜: 雙層膜，核孔複合體 (NPC)
+- **BME 應用**: 藥物靶向特定細胞器、線粒體疾病治療
 
-### 5. 細胞信號 (Cell Signaling)
-**受體類型: GPCR, RTK, Nuclear receptors
-- 第一信使: hormone, cytokine
-- 第二信使: cAMP, IP3, Ca²⁺
+### 3. 細胞骨架系統 (Cytoskeleton)
+**Schliwa (1980s)** — 動力學基礎設施
+
+- **三種纖維**:
+  1. **微管 (Microtubules)**:
+     - 直徑 25 nm，中空管狀
+     - 由 α/β-tubulin 二聚體組裝
+     - 馬達蛋白: kinesin (+端移動), dynein (-端移動)
+     - 數字: 聚合速度 ~1 μm/min
+  2. **微絲 (Actin filaments)**:
+     - 直徑 7 nm，雙螺旋結構
+     - 由 G-actin 單體組裝
+     - 馬達蛋白: myosin
+     - 數字: 聚合速度 ~0.5 μm/min
+  3. **中間纖維 (Intermediate filaments)**:
+     - 直徑 10 nm，非極性
+     - 類型: vimentin, keratin, lamin, neurofilament
+- **功能**: 細胞形狀、極性、遷移、分裂
+- **BME 應用**: 細胞力學、組織工程、癌細胞轉移抑制
+
+### 4. 膜轉運機制 (Membrane Transport)
+**Hodgkin & Huxley (1939)** — 神經傳導基礎
+
+- **被動轉運 (Passive)**:
+  - 簡單擴散: O₂, CO₂, N₂, 脂溶性分子
+  - 易化擴散: 離子通道 (ion channels)、載體蛋白 (carriers)
+  - 滲透 (osmosis): 水通道蛋白 (aquaporins)
+  - **Fick's Law**: J = -D × (dC/dx)
+- **主動轉運 (Active)**:
+  - 原發性主動轉運: Na⁺/K⁺-ATPase (每循環 3 Na⁺ out, 2 K⁺ in)
+  - 次發性主動轉運: 協同轉運 (symport), 反向轉運 (antiport)
+- **囊泡轉運**:
+  - 胞吐作用 (exocytosis): 分泌蛋白、神經遞質
+  - 胞吞作用 (endocytosis): receptor-mediated (clathrin-coated pits)
+- **數字**:
+  - 離子通道傳導率: 10⁶-10⁸ ions/s
+  - Na⁺/K⁺-ATPase: 每秒 100-200 循環
+- **BME 應用**: 離子通道藥物、血腦屏障轉運、基因治療載體
+
+### 5. 細胞信號傳導 (Cell Signaling)
+**Sutherland (1960s)** — 第二信使系統
+
+- **信號類型**:
+  - 內分泌 (endocrine): 激素 (insulin, cortisol)
+  - 旁分泌 (paracrine): 局部因子 (growth factors)
+  - 自分泌 (autocrine): 自分泌信號
+  - 突觸 (synaptic): 神經遞質
+- **受體類型**:
+  1. **離子通道偶聯受體** (ligand-gated ion channels)
+  2. **G蛋白偶聯受體 (GPCR)** — 最大家族 (~800 human genes)
+  3. **酶聯受體** (receptor tyrosine kinases)
+- **第二信使**:
+  - cAMP, cGMP, IP₃, DAG, Ca²⁺
+  - 訊號放大: 1 receptor → 100+ effectors
+- **BME 應用**: GPCR藥物設計 (~34% FDA批准藥物靶點)、酪氨酸激酶抑制劑 (imatinib)
 
 ---
 
 ## 問題 2：3 個根本分歧
 
-### 分歧 1: 膜蛋白的運動性
-- 流動鑲嵌 vs. 蛋白質周圍的「停泊」
-- 實驗: FRAP (fluorescence recovery after photobleaching)
+### 分歧 1: 膜蛋白側向擴散 — 受限 vs 自由
+- **A 方**: Singer-Nicolson (1972) — 膜蛋白在磷脂雙層中自由側向擴散
+- **B 方**: Edidin (1990s) — 膜蛋白受細胞骨架約束，存在「島嶼式」(picket-fence) 組織
+- **實驗證據**: FRAP (Fluorescence Recovery After Photobleaching) vs single-particle tracking
+- **BME 影響**: 膜蛋白藥物靶點的給藥策略
 
-### 分歧 2: 胞吞機制
-- 吞噬作用 vs. 受體介導內吞
-- Clathrin-coated pits 的爭議
+### 分歧 2: 胞吞機制 — clathrin-coated pits vs caveolae
+- **A 方**: Pearse (1975) — clathrin介導的胞吞是主要途徑
+- **B 方**: Rothberg et al. (1992) — caveolae (小窩)是另一重要途徑
+- **BME 影響**: 藥物載體的細胞攝取途徑
 
-### 分歧 3: 細胞週期控制
-- Cyclin-CDK 驅動 vs. 檢查點模型
+### 分歧 3: 粒線體起源 — 內共生假說 vs 其他理論
+- **A 方**: Margulis (1967) — 粒線體起源於內共生的α-變形菌
+- **B 方**: 某些研究認為內膜來自內吞作用
+- **證據**: 雙層膜、獨立的環形DNA、核糖體70S類似細菌
+- **BME 影響**: 粒線體疾病的治療策略
 
 ---
 
 ## 問題 3：10 個深度問題
 
-1. 為什麼紅血球沒有細胞核但仍能執行功能？
-2. 解釋離子通道的選擇性過濾機制。
-3. 為什麼高爾基體是細胞的「交通警察」？
-4. 微管如何參與有絲分裂？
-5. 解釋受體介導內吞的分子機制。
-6. 什麼是上皮細胞的極性？如何維持？
-7. 為什麼線粒體被稱為細胞的「發電廠」？
-8. 細胞如何響應滲透壓變化？
-9. 什麼是細胞連接？列舉三種主要類型。
-10. 解釋細胞自噬的過程和意義。
+1. 為什麼細胞膜的流動性對細胞功能至關重要？膜流動性改變會如何影響細胞信號和物質轉運？
+
+2. 計算：如果一個分子在半徑 r = 10 μm 的細胞內從一側擴散到另一側需要 1 秒，問相同分子在 r = 20 μm 的細胞中需要多少時間？(提示: t ∝ r²)
+
+3. Na⁺/K⁺-ATPase 每消耗 1 個 ATP 分子，細胞淨輸出 1 個正電荷。解釋這如何建立靜息膜電位。
+
+4. 比較 receptor-mediated endocytosis 和 phagocytosis 的機制差異。為什麼前者更有效率？
+
+5. 解釋為什麼大多數藥物是脂溶性的（能穿過細胞膜）而非水溶性的。
+
+6. 如果一個組織的滲透壓升高，會發生什麼？細胞如何應對高滲透壓環境？
+
+7. 比較微管和微絲的組裝動力學差異。為什麼微管有 + 端和 - 端的極性而微絲沒有明顯的極性差異？
+
+8. 描述蛋白質從核糖體到溶酶體的整個分揀途徑 (sorting pathway)。
+
+9. 解釋第二信使 cAMP 的合成和降解途徑，以及它如何放大細胞信號。
+
+10. 設計一個實驗來測量紅血球的膜流動性 (membrane fluidity)。
 
 ---
 
 # 核心概念深化（中英對照）
 
-## 1. 細胞膜結構與功能 (Cell Membrane Structure)
-
-### 1.1 雙語概念對照
-
-| English | 中文 | 定義 | BME 應用 |
-|---------|------|------|----------|
-| Phospholipid bilayer | 磷脂雙層 | 基本膜結構 | 自組裝 |
-| Membrane protein | 膜蛋白 | 整合或周邊 | 藥物靶點 |
-| Glycocalyx | 糖萼 | 細胞表面糖鏈 | 細胞識別 |
-| Fluid mosaic model | 流動鑲嵌模型 | Singer & Nicolson 1972 | 膜結構 |
-| Lipid raft | 脂筏 | 微結構域 | 信號轉導 |
-| Integral protein | 整合膜蛋白 | 跨膜α-螺旋 | 受體 |
-| Peripheral protein | 周邊膜蛋白 | 胞質面結合 | 訊號蛋白 |
-| Membrane fluidity | 膜流動性 | 磷脂擴散 | 溫度適應 |
-
-### 1.2 膜結構特點
-
-**磷脂組成**:
-| 細胞器 | 主要磷脂 | 特點 |
-|--------|----------|------|
-| 漿膜 | PC, PE, PS, cholesterol | 對稱性調控 |
-| 內質網 | PC, PE | 更多的PC |
-| 線粒體內膜 | Cardiolipin | 高度不飽和 |
-
-**膜蛋白類型**:
-- **Type I**: N-末端在細胞外，C-末端在細胞內
-- **Type II**: N-末端在細胞內，C-末端在細胞外
-- **Multi-pass**: 多次跨膜
-- **Lipid-anchored**: 脂肪酸或 GPI 錨定
-
-### 1.3 圖解：細胞膜結構
+## 1. 流動鑲嵌模型示意圖 (Fluid Mosaic Model Diagram)
 
 ```mermaid
-graph TD
-    A["Plasma Membrane Structure"] --> B["Lipid Bilayer"]
-    A --> C["Membrane Proteins"]
-    A --> D["Carbohydrates"]
+graph TB
+    subgraph "Phospholipid Bilayer"
+        A[Extracellular space]
+        B[Polar head - Phospholipid outer leaflet]
+        C[Hydrophobic tails - Phospholipid inner leaflet]
+        D[Cytoplasm]
+    end
     
-    B --> B1["Phospholipids<br/>• Polar head (hydrophilic)<br/>• Fatty acid tails (hydrophobic)"]
-    B --> B2["Cholesterol<br/>• Regulates fluidity<br/>• Increases rigidity at high T"]
-    B --> B3["Lipid Rafts<br/>• Sphingolipid/cholesterol domains<br/>• Signaling platforms"]
+    E[Integral protein - α-helix transmembrane]
+    F[Peripheral protein - cytoplasmic side]
+    G[Cholesterol molecule - fluid regulator]
+    H[Glycoprotein - sugar chains facing outside]
+    I[Lipid-anchored protein]
     
-    C --> C1["Integral Proteins<br/>• Transmembrane α-helices<br/>• β-barrels (porins)"]
-    C --> C2["Peripheral Proteins<br/>• Cytosolic attachment<br/>• Ankyrin, spectrin links"]
-    C --> C3["Anchored Proteins<br/>• Lipid-anchored (myristoyl, palmitoyl)<br/>• GPI-anchored"]
+    B --> E
+    C --> E
+    C --> F
+    B --> G
+    B --> H
+    C --> I
     
-    D --> D1["Glycoproteins<br/>• N-linked (Asn)<br/>• O-linked (Ser/Thr)"]
-    D --> D2["Glycolipids<br/>• Gangliosides<br/>• Blood group antigens"]
-    D --> D3["Glycocalyx<br/>• Cell-cell recognition<br/>• Protection"]
+    style A fill:#e1f5fe
+    style D fill:#fff3e0
+    style B fill:#b3e5fc
+    style C fill:#b2dfdb
+    style E fill:#ffccbc
+    style F fill:#d1c4e9
+    style G fill:#c8e6c9
+    style H fill:#f8bbd0
+```
+
+## 2. 細胞內膜系統示意圖
+
+```mermaid
+flowchart LR
+    subgraph "Secretory Pathway"
+        A[Nucleus] -->|mRNA| B[Rough ER]
+        B -->|protein| C[Golgi apparatus]
+        C -->|vesicle| D[Plasma membrane]
+        D -->|secretion| E[Extracellular space]
+    end
     
-    E["Membrane Properties"] --> E1["Fluidity: D ~ 1 μm²/s"]
-    E --> E2["Asymmetry: PS outside → apoptosis signal"]
-    E --> E3["Thickness: 5-10 nm"]
-    E --> E4["Resistance: ~10⁹ Ω·cm²"]
+    subgraph "Energy System"
+        F[Cytoplasm] -->|glucose| G[Mitochondria]
+        G -->|ATP| H[Cellular processes]
+    end
     
-    style A fill:#e3f2fd
-    style E fill:#c8e6c9
+    subgraph "Degradation"
+        C -->|lysosomal enzyme| I[Lysosome]
+        I -->|digestion| J[Degraded products]
+    end
+    
+    style A fill:#e1f5fe
+    style G fill:#fff9c4
+    style I fill:#ffcdd2
+```
+
+## 3. 主動轉運 vs 被動轉運示意圖
+
+```mermaid
+graph LR
+    subgraph "Outside"
+        O1[High Na⁺]
+        O2[Low K⁺]
+    end
+    
+    subgraph "Membrane"
+        M1[Na⁺/K⁺-ATPase]
+        M2[Ion Channel]
+    end
+    
+    subgraph "Inside"
+        I1[Low Na⁺]
+        I2[High K⁺]
+    end
+    
+    O1 -->|Na⁺ out| M1
+    M1 -->|Na⁺ in| I1
+    O2 -->|K⁺ in| M1
+    M1 -->|K⁺ out| I2
+    O1 -.->|Na⁺ passive| M2
+    I2 -.->|K⁺ passive| M2
+    
+    style M1 fill:#ff7043
+    style M2 fill:#66bb6a
+    style O1 fill:#e3f2fd
+    style I1 fill:#e8f5e9
 ```
 
 ---
 
-## 2. 膜轉運機制 (Membrane Transport)
+## 4. 深度 Dive 1: Na⁺/K⁺-ATPase — 細胞的「離子泵」
 
-### 2.1 雙語概念對照
+### 4.1 基本概念
+**Jens Skou (1957)** — 首次發現Na⁺/K⁺-ATPase，1997年諾貝爾化學獎
 
-| English | 中文 | 定義 | BME 應用 |
-|---------|------|------|----------|
-| Passive transport | 被動轉運 | 順濃度梯度 | 藥物吸收 |
-| Active transport | 主動轉運 | 逆濃度梯度 | 藥物轉運 |
-| Osmosis | 滲透 | 水通道 | 腎臟 |
-| Diffusion | 擴散 | 分子熱運動 | 氣體交換 |
-| Facilitated diffusion | 易化擴散 | 載體/通道 | 離子通道 |
-| Primary active | 原發性主動轉運 | 直接用ATP | Na⁺/K⁺-ATPase |
-| Secondary active | 繼發性主動轉運 | 離子梯度 | SGLT |
-| Symport | 同向轉運 | 同方向 | SGLT |
-| Antiport | 反向轉運 | 反方向 | Cl⁻/HCO₃⁻ |
+- **化學方程式**:
+  ATP + 3 Na⁺(inside) + 2 K⁺(outside) → ADP + Pi + 3 Na⁺(outside) + 2 K⁺(inside)
+- **能量**: ΔG ≈ -50 kJ/mol (每循環)
+- **馬達效率**: ~100% (將化學能轉化為離子梯度)
 
-### 2.2 主要轉運蛋白
+### 4.2 結構
+- **α-subunit**: 催化亞基，含有ATP結合位點和離子結合位點
+- **β-subunit**: 調節折疊和膜定位
+- **γ-subunit**: FXYD蛋白，調節活性
+- **結構數字**: ~1000氨基酸，10個跨膜α螺旋
 
-**Na⁺/K⁺-ATPase**:
-- 每循環: 3 Na⁺ 出 + 2 K⁺ 入
-- ATP hydrolysis: ΔG = -50 kJ/mol
-- 維持: [Na⁺]i ~10 mM, [K⁺]i ~140 mM
-- 維持膜電位: -70 mV
+### 4.3 臨床相關
+- **心臟衰竭**: Digoxin抑制Na⁺/K⁺-ATPase，增加胞內Na⁺，間接增加心肌細胞Ca²⁺
+- **神經系統**: Ouabain作為神經毒素
+- **癌症**: 某些腫瘤細胞高表達Na⁺/K⁺-ATPase
 
-**GLUT transporters**:
-| Transporter | 位置 | Km (mM) | 功能 |
-|-------------|------|---------|------|
-| GLUT1 | RBC, BBB | 5 | 基礎葡萄糖攝取 |
-| GLUT2 | Liver, β-cell | 15 | 高 Km，低親和 |
-| GLUT3 | Neuron | 1.5 | 高親和 |
-| GLUT4 | Muscle, adipose | - | 胰島素依賴 |
-
-### 2.3 圖解：膜轉運類型
-
-```mermaid
-graph TD
-    A["Membrane Transport"] --> B["Passive Transport"]
-    A --> C["Active Transport"]
-    
-    B --> B1["Simple Diffusion<br/>O₂, CO₂, lipids"]
-    B --> B2["Facilitated Diffusion<br/>Channels, carriers"]
-    B1 --> B1a["Channel proteins<br/>Ion channels, aquaporins"]
-    B1 --> B1b["Carrier proteins<br/>GLUT, channels"]
-    
-    B2 --> B2a["Ion channels<br/>Gated, selective"]
-    B2 --> B2b["Aquaporins<br/>Water channels<br/>8 transmembrane helices"]
-    
-    C --> C1["Primary Active<br/>Direct ATP hydrolysis"]
-    C --> C2["Secondary Active<br/>Ion gradient driving"]
-    
-    C1 --> C1a["Na⁺/K⁺-ATPase<br/>3 Na⁺ out, 2 K⁺ in"]
-    C1 --> C1b["H⁺-ATPase<br/>V-type, F-type"]
-    C1 --> C1c["Ca²⁺-ATPase<br/>SERCA, PMCA"]
-    
-    C2 --> C2a["Symport: SGLT1/2<br/>Na⁺ + glucose"]
-    C2 --> C2b["Antiport: AE1<br/>Cl⁻/HCO₃⁻"]
-    
-    D["Osmosis"] --> D1["Isotonic: no net flow"]
-    D --> D2["Hypotonic: swelling, lysis"]
-    D --> D3["Hypertonic: crenation"]
-    
-    E["Clinical Relevance"] --> E1["Diuretics: Na⁺/K⁺-ATPase inhibitors"]
-    E --> E2["Digoxin: Heart failure<br/>Inhibits Na⁺/K⁺-ATPase → ↑[Na⁺]i → ↓Na⁺/Ca²⁺ exchange → ↑[Ca²⁺]i → ↑contractility"]
-    
-    style A fill:#fff9c4
-    style E fill:#ffcdd2
-```
+### 4.4 BME應用
+- **生物燃料電池**: 利用離子梯度發電
+- **藥物設計**: 心臟糖苷類藥物
+- **生物感測器**: 離子選擇性 electrodes
 
 ---
 
-## 3. 細胞骨架 (Cytoskeleton)
+## 5. 深度 Dive 2: 細胞骨架 — 動力學引擎
 
-### 3.1 雙語概念對照
+### 5.1 微管 (Microtubules)
 
-| English | 中文 | 定義 | BME 應用 |
-|---------|------|------|----------|
-| Microtubules | 微管 | α/β-tubulin | 有絲分裂 |
-| Microfilaments | 微絲 | F-actin | 運動 |
-| Intermediate filaments | 中間絲 | 多種蛋白 | 結構 |
-| Kinesin | 驅動蛋白 | 正端運動 | 軸突運輸 |
-| Dynein | 動力蛋白 | 負端運動 | 鞭毛運動 |
-| Myosin | 肌球蛋白 | 肌肉收縮 | 肌肉 |
-| Centrosome | 中心體 | 微管組織中心 | 細胞分裂 |
-| Spindle | 紡錘體 | 有絲分裂裝置 | 分離染色體 |
+**Shelanski & Taylor (1967)** — 發現tubulin
 
-### 3.2 微管結構與功能
+- **結構**: α/β-tubulin異二聚體，13根原纖維圍繞空洞中心
+- **GTP動力學**:
+  - β-tubulin結合的GTP在聚合後水解為GDP
+  - GTP帽 (GTP cap) 穩定生長端
+- **藥物靶點**:
+  - 紫杉醇 (Taxol): 穩定微管，抑制解聚 → 抗癌藥
+  - 秋水仙素 (Colchicine): 抑制聚合 → 抗痛風
 
-**結構**:
-- αβ-tubulin 異二聚體
-- 13 protofilaments 形成管壁
-- GTP 結合唱話 (β-tubulin)
-- 動態不穩定性 (dynamic instability)
+### 5.2 微絲 (Actin Filaments)
 
-**馬達蛋白**:
-| 馬達 |  Cargo | Direction | Speed |
-|------|--------|------------|-------|
-| Kinesin-1 | Vesicles | Anterograde (+) | 1 μm/s |
-| Kinesin-2 | Cilia | Anterograde | 1.5 μm/s |
-| Cytoplasmic dynein | Organelles | Retrograde (-) | 1 μm/s |
-| Myosin V | Vesicles | Along actin | 0.5 μm/s |
+**Huxley (1954)** — 肌肉收縮的滑動絲模型
 
-### 3.3 圖解：細胞骨架
+- **結構**: G-actin單體，雙螺旋
+- **調控**:
+  - Arp2/3複合體: 分支形成
+  - Formin: 直線聚合
+  - Thymosin-β4: 單體隔離
+  - Profilin: 單體回收
+- **馬達蛋白**: Myosin II (肌肉收縮)
+- **臨床應用**: Cytochalasin D (抑制聚合)，Blebbistatin (抑制myosin)
 
-```mermaid
-graph TD
-    A["Cytoskeleton"] --> B["Microtubules"]
-    A --> C["Actin Filaments"]
-    A --> D["Intermediate Filaments"]
-    
-    B --> B1["α/β-Tubulin dimers"]
-    B --> B2["13 protofilaments"]
-    B --> B3["Dynamic instability<br/>GTP cap"]
-    B --> B4["Centrosome organizing center"]
-    
-    C --> C1["G-actin monomers"]
-    C --> C2["Double helix (F-actin)"]
-    C --> C3["ATP → ADP turnover"]
-    C --> C4["Cell motility, cytokinesis"]
-    
-    D --> D1["Keratins (epithelial)"]
-    D --> D2["Vimentin (mesenchymal)"]
-    D --> D3["Neurofilaments (neurons)"]
-    D --> D4["Lamins (nuclear)"]
-    
-    E["Motor Proteins"] --> E1["Kinesin: (+) end movement"]
-    E --> E2["Dynein: (-) end movement"]
-    E --> E3["Myosin: Actin-based"]
-    
-    F["Functions"] --> F1["Structure, shape, mechanical support"]
-    F --> F2["Cell division (spindle, contractile ring)"]
-    F --> F3["Intracellular transport"]
-    F --> F4["Cell motility"]
-    
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
-```
+### 5.3 中間纖維
+
+**Lazarides & Hubbard (1976)** — 細胞機械穩定性
+
+- **類型與組織特異性**:
+  | 類型 | 組織 |
+  |------|------|
+  | Keratin | 上皮細胞 |
+  | Vimentin | 間質細胞、成纖維細胞 |
+  | Desmin | 肌肉細胞 |
+  | Neurofilament | 神經元 |
+  | Lamin | 細胞核膜 |
+
+### 5.4 BME應用
+- **組織工程**: 支架材料引導細胞骨架形成
+- **細胞力學**: Atomic Force Microscopy測量剛度
+- **藥物篩選**: 抗有絲分裂藥物 (微管抑制劑)
 
 ---
 
-## 4. 內膜系統 (Endomembrane System)
+## 6. 深度 Dive 3: 受體介導胞吞作用 (Receptor-Mediated Endocytosis)
 
-### 4.1 雙語概念對照
-
-| English | 中文 | 定義 | BME 應用 |
-|---------|------|------|----------|
-| Endoplasmic reticulum | 內質網 | 蛋白質/脂質合成 | 藥物代謝 |
-| Rough ER | 粗糙內質網 | 核糖體附著 | 分泌蛋白 |
-| Smooth ER | 光滑內質網 | 脂質合成 | 類固醇 |
-| Golgi apparatus | 高爾基體 | 糖基化,分揀 | 蛋白質加工 |
-| Vesicles | 小泡 | 轉運載體 | 分泌 |
-| Lysosome | 溶酶體 | 降解 | 吞噬 |
-| Endosome | 內體 | 分揀站 | 內吞 |
-| Peroxisome | 過氧化物酶體 | 脂肪酸氧化 | 抗氧化 |
-
-### 4.2 蛋白質分泌途徑
-
-**分泌蛋白合成**:
-1. mRNA → 粗糙內質網 (信號肽識別)
-2. 翻譯同時轉位 (co-translational translocation)
-3. 新生多肽進入 ER 腔
-4. N-連接糖基化起始
-5. 二硫鍵形成，折疊
-6. QC (quality control) 檢查
-7. 包裝進 COPII 小泡
-8. 轉運到高爾基體
-
-**高爾基體加工**:
-- Cis: 接收 ER 來源小泡
-- Medial: 寡糖修剪
-- Trans: 進一步加工，分揀
-- TGN: 包裝進分泌小泡
-
-### 4.3 圖解：內膜系統
+### 6.1 機制步驟
 
 ```mermaid
-graph TD
-    A["Endomembrane System"] --> B["Nucleus"]
-    A --> C["Endoplasmic Reticulum"]
-    A --> D["Golgi Apparatus"]
-    A --> E["Endosomes & Lysosomes"]
+sequenceDiagram
+    participant Ligand as Ligand (LDL)
+    participant Receptor as Receptor (LDL-R)
+    participant Clathrin as Clathrin coat
+    participant Vesicle as Endosome
+    participant Lysosome as Lysosome
     
-    B --> B1["Nuclear envelope<br/>Double membrane"]
-    B --> B2["Nuclear pores<br/>NPC transport"]
-    B --> B3["Chromatin, nucleolus"]
-    
-    C --> C1["Rough ER<br/>Ribosomes, protein synthesis"]
-    C --> C2["Smooth ER<br/>Lipid synthesis, Ca²⁺ storage"]
-    C --> C3["ER chaperones<br/>BiP, PDI"]
-    
-    D --> D1["Cis Golgi Network<br/>Receives vesicles"]
-    D --> D2["Medial Golgi<br/>Glycan processing"]
-    D --> D3["Trans Golgi Network<br/>Sorting, packaging"]
-    
-    E --> E1["Early endosome<br/>Sorting station"]
-    E --> E2["Late endosome<br/>Maturation"]
-    E --> E3["Lysosome<br/>Acid hydrolases<br/>pH 4.5-5"]
-    
-    F["Vesicle Trafficking"] --> F1["COPII: ER → Golgi"]
-    F --> F2["COPI: Golgi → ER"]
-    F --> F3["Clathrin: Endocytosis"]
-    
-    G["Protein Quality Control"] --> G1["ERAD: ER-associated degradation"]
-    G --> G2["Unfolded protein response (UPR)"]
-    G --> G3["Autophagy: Lysosomal degradation"]
-    
-    style A fill:#fff9c4
-    style G fill:#ffcdd2
+    Ligand->>Receptor: Bind to receptor
+    Receptor->>Clathrin: Cluster in clathrin-coated pit
+    Note over Clathrin: ~100nm diameter
+    Clathrin->>Vesicle: Pinching (dynamin)
+    Vesicle->>Vesicle: Uncoating
+    Vesicle->>Vesicle: Maturation to early endosome
+    Note over Vesicle: pH ~6.0
+    Vesicle->>Vesicle: Sorting decisions
+    Vesicle->>Lysosome: Fusion for degradation
 ```
+
+### 6.2 關鍵數字
+- **Clathrin-coated pits**: 直徑 ~100-200 nm
+- **Vesicle formation**: ~1 vesicle/second per clathrin-coated pit
+- **Endosome pH**: early ~6.0, late ~5.0
+- **Internalization rate**: ~100-200 molecules/pit/second
+
+### 6.3 生理功能
+- **LDL uptake**: 膽固醇攝取 (LDL receptor mutation → familial hypercholesterolemia)
+- **Transferrin receptor**: 鐵攝取
+- **Epidermal growth factor (EGF)**: 細胞增殖信號
+- **Insulin receptor**: 葡萄糖攝取
+
+### 6.4 BME應用
+- **藥物載體**: 修飾納米顆粒表面提高細胞攝取
+- **基因治療**: AAV vectors利用receptor-mediated endocytosis
+- **疫苗設計**: 納米顆粒模擬病原體尺寸
 
 ---
 
-## 5. 細胞連接與極性 (Cell Junctions & Polarity)
+## 7. 深度 Dive 4: 細胞膜的跨膜電位 (Transmembrane Potential)
 
-### 5.1 雙語概念對照
+### 7.1 靜息膜電位 (Resting Membrane Potential)
 
-| English | 中文 | 定義 | BME 應用 |
-|---------|------|------|----------|
-| Tight junction | 緊密連接 | 封閉細胞間隙 | 血腦屏障 |
-| Adherens junction | 黏著連接 | E-cadherin | 細胞粘附 |
-| Desmosome | 橋粒 | 機械連接 | 皮膚 |
-| Gap junction | 縫隙連接 | 離子通道 | 心臟 |
-| Hemidesmosome | 半橋粒 | 細胞-基質 | 基底膜 |
-| Basal lamina | 基底膜 | 細胞外基質 | 組織結構 |
+**Hodgkin & Huxley (1939)** — Nobel Prize 1963
 
-### 5.2 緊密連接功能
+- **典型值**: 
+  - 哺乳動物神經元: -70 mV
+  - 骨骼肌: -90 mV
+  - 紅血球: -10 mV
+- ** Goldman Equation**:
+  ```
+  Vm = (RT/F) × ln[(PK⁺[K⁺]out + PNa⁺[Na⁺]out + PCl⁻[Cl⁻]in) / 
+              (PK⁺[K⁺]in + PNa⁺[Na⁺]in + PCl⁻[Cl⁻]out)]
+  ```
+- **離子電導**:
+  - PK⁺/PNa⁺ ≈ 30:1 (對K⁺高度選擇)
+  - K⁺平衡電位: -90 mV (最接近Vm)
+  - Na⁺平衡電位: +60 mV
 
-**結構**:
-- Claudin, occludin, JAM 蛋白
-- 跨膜蛋白與相鄰細胞形成「拉鍊」
-- 細胞質面: ZO proteins (ZO-1, ZO-2, ZO-3)
+### 7.2 維持機制
+- **被動分布**: K⁺濃度細胞內高 (150 mM)，細胞外低 (5 mM)
+- **主動維持**: Na⁺/K⁺-ATPase維持離子梯度
+- **能量消耗**: 佔細胞ATP預算 ~25-30%
 
-**功能**:
-1. **封閉作用**: 防止溶質從細胞間通過 (paracellular)
-2. **極性建立**: 分離頂側和基底側膜蛋白
-3. **信號轉導**: 激活細胞內信號通路
-
-**臨床**:
-- Claudin mutations → 遺傳性聽力損失
-- Tight junction dysfunction → 腸道滲漏
-
-### 5.3 圖解：細胞連接
-
-```mermaid
-graph TD
-    A["Cell Junctions"] --> B["Tight Junctions"]
-    A --> C["Anchoring Junctions"]
-    A --> D["Gap Junctions"]
-    
-    B --> B1["Claudins, Occludin, JAMs"]
-    B --> B2["Functions:<br/>• Paracellular barrier<br/>• Cell polarity"]
-    B --> B3["Location: Epithelia, endothelia"]
-    
-    C --> C1["Adherens Junction"]
-    C1 --> C1a["E-cadherin: Ca²⁺-dependent"]
-    C1 --> C1b["Catenins connect to actin"]
-    
-    C --> C2["Desmosomes"]
-    C2 --> C2a["Cadherin family (desmoglein, desmocollin)"]
-    C2 --> C2b["Intermediate filament link"]
-    C2 --> C2c["Stress resistance"]
-    
-    C --> C3["Hemidesmosomes"]
-    C3 --> C3a["Integrins connect to basal lamina"]
-    C3 --> C3b["Intermediate filaments inside"]
-    
-    D --> D1["Connexins (6 subunits)"]
-    D --> D2["Connexons: Hemichannel"]
-    D --> D3["Direct cell-cell communication"]
-    D --> D4["Ion, small molecule passage"]
-    
-    E["Cell Polarity"] --> E1["Apical domain: Tight junctions"]
-    E --> E2["Lateral domain: Adherens junctions"]
-    E --> E3["Basal domain: Hemidesmosomes"]
-    
-    style A fill:#e3f2fd
-    style E fill:#c8e6c9
-```
+### 7.3 BME應用
+- **神經假肢**: 閾值刺激 ~-55 mV
+- **心電圖 (ECG)**: 心肌細胞去極化同步化
+- **膜片鉗技術 (Patch clamp)**: 離子通道動力學研究
 
 ---
 
-## 深度自測問題
+## 8. 深度 Dive 5: 訊號傳導級聯 (Signal Transduction Cascade)
 
-### Q1: 計算紅血球細胞容積變化
+### 8.1 GPCR信號途徑
 
-**問題**: 將紅血球置於 0.3% NaCl 溶液中，會發生什麼？
-（正常血漿滲透壓 ~300 mOsm/L）
+```mermaid
+flowchart TB
+    L[Ligand - Epinephrine] --> R[GPCR - β-adrenergic]
+    R --> G[G-protein αs]
+    G --> AC[Adenylyl cyclase]
+    AC --> ATP[ATP]
+    ATP --> cAMP[cAMP]
+    cAMP --> PKA[Protein kinase A]
+    PKA --> Phospho[Phosphorylase kinase]
+    Phospho --> Glycogen[Glycogen phosphorylase]
+    Glycogen --> Glucose[Glucose-1-phosphate]
+    Glucose --> Energy[Energy for muscle]
+    
+    style L fill:#ffecb3
+    style R fill:#b3e5fc
+    style G fill:#c8e6c9
+    style cAMP fill:#f8bbd0
+```
+
+### 8.2 信號放大
+- **1 epinephrine** → **100 GPCR激活**
+- **100 GPCR** → **1000 G-protein激活**
+- **1000 G-protein** → **10,000 adenylyl cyclase激活**
+- **10,000 AC** → **1,000,000 cAMP分子**
+- **1,000,000 cAMP** → **10,000,000 PKA激活**
+- **放大倍數**: ~10⁷-10⁸
+
+### 8.3 信號終止
+- **GPCR磷酸化**: GRKs (GPCR kinases)
+- **β-arrestin招募**: 受體內吞/脫敏
+- **磷酸二酯酶 (PDE)**: cAMP → AMP
+
+### 8.4 BME應用
+- **β-blockers**: 心臟病藥物
+- **抗組織胺**: 抗過敏
+- **類鴉片藥物**: 鎮痛
+
+---
+
+## 9. 10 個 Solution 解釋
+
+### Solution 1: Fick's Law 計算
+**問題**: 計算O₂在血漿中的擴散速率。血漿層厚 0.5 mm，O₂分壓差 60 mmHg，D = 1.5 × 10⁻⁵ cm²/s。
 
 **解答**:
-- 0.3% NaCl ≈ 0.3 g/100 mL = 3 g/L
-- NaCl 摩爾質量 = 58.44 g/mol
-- [NaCl] = 3/58.44 = 0.051 M
-- 離子數 = 2 × 0.051 = 0.102 M = 102 mOsm/L
+```
+J = -D × (dC/dx)
 
-這是**低滲溶液** (< 300 mOsm/L)
-- 水會進入細胞
-- 紅血球膨脹
-- 可能發生溶血 (lysis)
+Step 1: 轉換單位
+d = 0.5 mm = 0.05 cm
+ΔP = 60 mmHg
+D = 1.5 × 10⁻⁵ cm²/s
 
----
+Step 2: 應用 Henry's Law
+C = α × P, where α (O₂ solubility) = 0.031 ml O₂/100ml blood/mmHg
 
-## 5 個 Mermaid 圖解
+ΔC = 60 mmHg × 0.031 ml/100ml/mmHg = 0.186 ml O₂/100ml
 
-### 圖 1: 細胞結構全景圖
-
-```mermaid
-graph TD
-    A["Eukaryotic Cell Structure"] --> B["Nucleus"]
-    A --> C["Cytoplasm"]
-    A --> D["Organelles"]
-    A --> E["Cytoskeleton"]
-    A --> F["Cell Membrane"]
-    
-    B --> B1["Nuclear envelope (double membrane)"]
-    B --> B2["Chromatin (DNA + histones)"]
-    B --> B3["Nucleolus (rRNA synthesis)"]
-    B --> B4["Nuclear pores (NPC)"]
-    
-    C --> C1["Cytosol (aqueous gel)"]
-    C --> C2["Ribosomes (free/poly)"]
-    C --> C3["Proteasome (degradation)"]
-    
-    D --> D1["Mitochondria (energy)"]
-    D --> D2["ER: Rough + Smooth"]
-    D --> D3["Golgi apparatus"]
-    D --> D4["Lysosome, Peroxisome"]
-    D --> D5["Endosomes"]
-    
-    E --> E1["Microtubules (MTOCs)"]
-    E --> E2["Actin filaments"]
-    E --> E3["Intermediate filaments"]
-    
-    F --> F1["Phospholipid bilayer"]
-    F --> F2["Membrane proteins"]
-    F --> F3["Glycocalyx"]
-    
-    style A fill:#fff9c4
+Step 3: 計算通量
+J = -D × (ΔC/Δx)
+J = -1.5 × 10⁻⁵ cm²/s × (0.186 ml/100ml) / 0.05 cm
+J ≈ 5.6 × 10⁻⁶ ml O₂/cm²/s
 ```
 
-### 圖 2: 信號轉導概述
+### Solution 2: 滲透壓計算 (Van't Hoff)
+**問題**: 計算 0.9% NaCl 溶液的滲透壓。
 
-```mermaid
-graph TD
-    A["Cell Signaling"] --> B["Signaling Molecules"]
-    A --> C["Receptors"]
-    A --> D["Signal Transduction"]
-    A --> E["Responses"]
-    
-    B --> B1["Hormones (steroid, peptide)"]
-    B --> B2["Neurotransmitters"]
-    B --> B3["Cytokines"]
-    B --> B4["Growth factors"]
-    
-    C --> C1["Cell surface:<br/>GPCR, RTK, ion channel"]
-    C --> C2["Intracellular:<br/>Nuclear receptors, cytoplasmic"]
-    
-    D --> D1["Second messengers:<br/>cAMP, IP3, DAG, Ca²⁺"]
-    D --> D2["Kinase cascades:<br/>MAPK, PI3K/Akt"]
-    D --> D3["Protein phosphatases"]
-    
-    E --> E1["Gene expression"]
-    E --> E2["Enzyme activity"]
-    E --> E3["Ion channel opening"]
-    E --> E4["Cytoskeletal changes"]
-    
-    style A fill:#e3f2fd
+**解答**:
+```
+0.9% NaCl = 9 g NaCl / 1000 g H₂O
+
+Step 1: 計算摩爾濃度
+M(NaCl) = 58.5 g/mol
+Moles = 9 g / 58.5 g/mol = 0.154 mol
+
+Step 2: NaCl 解離 (van't Hoff factor i = 2)
+i × M = 2 × 0.154 = 0.308 osmol/L = 308 mOsm/L
+
+Step 3: 計算滲透壓
+π = i × M × R × T
+π = 0.308 osmol/L × 0.0821 L·atm/(mol·K) × 310 K
+π ≈ 7.84 atm ≈ 5500 mmHg ≈ 7.5 atm (≈ 580 mmHg)
+≈ 300 mOsm =  isotonic with plasma
 ```
 
-### 圖 3: 細胞週期
+### Solution 3: 膜電位計算 (Goldman Equation)
+**問題**: 計算細胞的靜息膜電位，假設 PK⁺ = 1, PNa⁺ = 0.04, PCl⁻ = 0.45。
 
-```mermaid
-graph TD
-    A["Cell Cycle"] --> B["Interphase"]
-    A --> C["M Phase"]
-    
-    B --> B1["G1: Growth, check point"]
-    B --> B2["S: DNA synthesis"]
-    B --> B3["G2: Growth, check point"]
-    
-    C --> C1["Mitosis"]
-    C1 --> C1a["Prophase: Chromatin condenses"]
-    C1 --> C1b["Prometaphase: Nuclear envelope breaks"]
-    C1 --> C1c["Metaphase: Chromosomes align"]
-    C1 --> C1d["Anaphase: Sister chromatids separate"]
-    C1 --> C1e["Telophase: Nuclear envelope reforms"]
-    C1 --> C1f["Cytokinesis: Cell division"]
-    
-    C --> C2["Meiosis (germ cells)"]
-    C2 --> C2a["Meiosis I: Homologs separate"]
-    C2 --> C2b["Meiosis II: Sister chromatids separate"]
-    
-    D["Regulation"] --> D1["Cyclin-CDK complexes"]
-    D --> D2["Checkpoints: G1/S, G2/M"]
-    D --> D3["p53: Guardian of genome"]
-    D --> D4["Retinoblastoma: G1/S gatekeeper"]
-    
-    style A fill:#fff9c4
-    style D fill:#c8e6c9
+**解答**:
+```
+Given: [K⁺]in = 150 mM, [K⁺]out = 5 mM
+       [Na⁺]in = 15 mM, [Na⁺]out = 150 mM
+       [Cl⁻]in = 10 mM, [Cl⁻]out = 120 mM
+       T = 37°C = 310 K
+
+Vm = (RT/F) × ln(numerator/denominator)
+
+RT/F = (8.314 × 310) / 96485 = 0.0267 V = 26.7 mV
+
+Numerator = PK⁺[K⁺]out + PNa⁺[Na⁺]out + PCl⁻[Cl⁻]in
+          = 1×5 + 0.04×150 + 0.45×10
+          = 5 + 6 + 4.5 = 15.5
+
+Denominator = PK⁺[K⁺]in + PNa⁺[Na⁺]in + PCl⁻[Cl⁻]out
+            = 1×150 + 0.04×15 + 0.45×120
+            = 150 + 0.6 + 54 = 204.6
+
+Vm = 26.7 × ln(15.5/204.6) = 26.7 × ln(0.076)
+Vm = 26.7 × (-2.58) = -68.9 mV ≈ -70 mV
 ```
 
-### 圖 4: 囊泡運輸
+### Solution 4: Michaelis-Menten 動力學與轉運
+**問題**: 某離子通道的 Km = 2 mM，當底物濃度為 1 mM 時，轉運速率為多少（相對於Vmax）？
 
-```mermaid
-graph TD
-    A["Vesicular Trafficking"] --> B["Secretory Pathway"]
-    A --> C["Endocytic Pathway"]
-    
-    B --> B1["ER → Golgi (COPII)"]
-    B1 --> B1a["Sec23/24: Cargo recognition"]
-    B1 --> B1b["Sec13/31: Coat formation"]
-    
-    B --> B2["Golgi → Plasma membrane"]
-    B2 --> B2a["Constitutive secretion"]
-    B2 --> B2b["Regulated secretion"]
-    
-    B --> B3["Golgi → Lysosome (Mannose-6-P)"]
-    B3 --> B3a["Acid hydrolases"]
-    B3 --> B3b["V-ATPase acidifies"]
-    
-    C --> C1["Clathrin-mediated endocytosis"]
-    C1 --> C1a["AP2 adaptors"]
-    C1 --> C1b["Dynamin: vesicle scission"]
-    
-    C --> C2["Early endosome"]
-    C2 --> C2a["Recycling to membrane"]
-    C2 --> C2b["Maturation to late endosome"]
-    
-    C --> C3["Late endosome → Lysosome"]
-    
-    D["Rab GTPases"] --> D1["Rab1: ER-Golgi"]
-    D --> D2["Rab5: Early endosome"]
-    D --> D3["Rab7: Late endosome"]
-    D --> D4["Rab11: Recycling"]
-    
-    style A fill:#e3f2fd
-    style D fill:#ffcdd2
+**解答**:
+```
+v = Vmax × [S] / (Km + [S])
+v/Vmax = [S] / (Km + [S])
+       = 1 mM / (2 mM + 1 mM)
+       = 1/3 = 33.3%
 ```
 
-### 圖 5: 線粒體結構與功能
+### Solution 5: 滲透脆性與細胞溶血
+**問題**: 解釋為什麼紅血球在蒸餾水中會溶血而在 0.9% NaCl 中不會。
 
-```mermaid
-graph TD
-    A["Mitochondria"] --> B["Structure"]
-    A --> C["Function"]
-    A --> D["Biogenesis"]
-    
-    B --> B1["Outer membrane: Porin"]
-    B --> B2["Intermembrane space"]
-    B --> B3["Inner membrane: Cristae"]
-    B --> B4["Matrix: CAC, DNA, ribosomes"]
-    
-    C --> C1["Energy production"]
-    C1 --> C1a["Pyruvate oxidation"]
-    C1 --> C1b["Citric acid cycle"]
-    C1 --> C1c["Oxidative phosphorylation"]
-    
-    C --> C2["Other functions"]
-    C2 --> C2a["Apoptosis (cytochrome c)"]
-    C2 --> C2b["Ca²⁺ buffering"]
-    C2 --> C2c["Heat production (uncoupling)"]
-    
-    D --> D1["mtDNA: 16.5 kb, circular"]
-    D --> D2["Inherited maternally"]
-    D --> D3["Dynamic: Fusion/fission"]
-    D --> D4["mtDNA diseases: MELAS, MERRF"]
-    
-    E["Mitochondrial Diseases"] --> E1["Leigh syndrome: Complex I deficiency"]
-    E --> E2["Kearns-Sayre: Large deletions"]
-    E --> E3["LHON: Optic neuropathy"]
-    
-    style A fill:#fff9c4
-    style E fill:#ffcdd2
+**解答**:
+```
+蒸餾水: 
+- 外部 [NaCl] = 0 mOsm/L
+- 內部 [NaCl] ≈ 300 mOsm/L
+- 滲透壓差驅動水進入細胞
+- 細胞膨脹 → 膜破裂 → 溶血
+
+0.9% NaCl (生理鹽水):
+- 外部 [NaCl] ≈ 308 mOsm/L
+- 內部 [NaCl] ≈ 300 mOsm/L
+- 滲透壓基本平衡
+- 細胞形態維持穩定
+```
+
+### Solution 6: 協同轉運能量計算
+**問題**: 計算葡萄糖-鈉協同轉運 (SGLT1) 的能量需求。
+
+**解答**:
+```
+SGLT1: 2 Na⁺ + 1 glucose → cell
+
+ΔG總 = ΔGNa⁺ + ΔGglucose
+
+ΔGNa⁺ = RT × ln([Na⁺]in/[Na⁺]out) + F × Vm
+       = 8.314 × 310 × ln(15/150) + 96485 × (-0.07)
+       = 2577 × (-2.30) - 6754
+       = -5937 + (-6754) = -12.7 kJ/mol (favorable)
+
+ΔGglucose = RT × ln([glucose]in/[glucose]out)
+          ≈ 8.314 × 310 × ln(5/5) = 0 (假設濃度平衡)
+
+Net ΔG = -12.7 + 0 = -12.7 kJ/mol (spontaneous)
+
+結論: Na⁺梯度驅動葡萄糖逆濃度轉運
+```
+
+### Solution 7: 囊泡轉運速率
+**問題**: 計算神經元突觸囊泡釋放的神經遞質分子數量。
+
+**解答**:
+```
+典型突觸囊泡:
+- 直徑: 40 nm
+- 體積: (4/3)πr³ = (4/3)π × (20 nm)³ = 33,500 nm³ = 3.35 × 10⁻¹⁷ L
+- 神經遞質濃度 (e.g., glutamate): ~100 mM
+
+分子數量:
+N = C × V × NA
+  = 0.1 mol/L × 3.35 × 10⁻¹⁷ L × 6.02 × 10²³ molecules/mol
+  = 2.02 × 10⁶ molecules per vesicle
+
+每次動作電位釋放 10-30 個囊泡:
+≈ 2 × 10⁷ - 6 × 10⁷ 分子
+```
+
+### Solution 8: 受體佔據率
+**問題**: 受體Kd = 10 nM，當配體濃度為 5 nM 時，佔據率是多少？
+
+**解答**:
+```
+佔據率 = [L] / ([L] + Kd)
+       = 5 nM / (5 nM + 10 nM)
+       = 5/15 = 33.3%
+```
+
+### Solution 9: 藥物滲透性計算
+**問題**: 某藥物的油/水分配係數 (log P) = 3，估算其細胞膜滲透性。
+
+**解答**:
+```
+藥物滲透性與 log P 的關係:
+- log P < 0: 親水性，難以穿透膜
+- log P = 1-3: 最佳平衡 (Lieb & Stein, 1969)
+- log P > 5: 過於親脂，留在膜中不解離
+
+估算滲透係數 Pc:
+log Pc ≈ a × log P + b (經驗公式)
+
+假設 a = 0.5, b = -3
+log Pc ≈ 0.5 × 3 - 3 = -1.5
+Pc ≈ 0.03 cm/s
+
+結論: log P = 3 表示藥物有良好的膜滲透性
+```
+
+### Solution 10: 信號放大計算
+**問題**: 如果一個生長因子受體激活後產生 100 個第二信使分子，每個第二信使激活 1000 個效應蛋白，計算總放大倍數。
+
+**解答**:
+```
+總放大倍數 = 受體 × 第二信使 × 效應蛋白
+           = 1 × 100 × 1000
+           = 100,000 倍
+
+這意味著 1 個生長因子分子最終導致 10⁵ 個蛋白質被磷酸化
 ```
 
 ---
 
-## 總結
+## 10. 5 個 Mermaid 示意圖
 
-### 本週核心概念
-1. **流動鑲嵌模型**: 膜結構基礎
-2. **膜轉運**: 被動/主動轉運機制
-3. **細胞骨架**: 微管、微絲、中間絲
-4. **內膜系統**: ER、高爾基、溶酶體
-5. **細胞連接**: 緊密、黏著、縫隙連接
-6. **細胞週期**: G1/S/G2/M 調控
+### Diagram 1: 細胞膜結構總覽
 
-### HKU BMED2302 考試重點
-- 膜結構與流動性
-- 轉運蛋白機制
-- 信號轉導通路
+```mermaid
+mindmap
+  root((Cell Membrane))
+    Phospholipid Bilayer
+      Hydrophilic heads
+        Phosphate group
+        Choline/Glycerol
+      Hydrophobic tails
+        Fatty acid chains
+      Self-sealing property
+    Membrane Proteins
+      Integral Proteins
+        Transmembrane α-helix
+        β-barrel porins
+      Peripheral Proteins
+        Cytoskeletal attachment
+        Enzyme activity
+      Lipid-anchored
+        Myristoyl
+        Palmitoyl
+        Prenyl
+    Carbohydrates
+      Glycoproteins
+      Glycolipids
+      Glycocalyx
+    Cholesterol
+      Fluid modulator
+      Barrier to small molecules
+```
 
-### 下週預習
-- 穩態與興奮組織
-- 神經生理學
-- 肌肉生理學
+### Diagram 2: 蛋白質分揀途徑
+
+```mermaid
+flowchart TB
+    A[mRNA] -->|Translation| B[Ribosome on Rough ER]
+    B -->|Protein synthesis| C[ER lumen/ER membrane]
+    C -->|Vesicle transport| D[Cis-Golgi]
+    D -->|Processing| E[Medial Golgi]
+    E -->|Further processing| F[Trans-Golgi Network]
+    F -->|Sorting| G{Destination?}
+    G -->|Secretory| H[Plasma membrane]
+    G -->|Lysosomal| I[Lysosome via MPR]
+    G -->|Membrane| J[Plasma membrane]
+    G -->|Endocytic| K[Early endosome]
+    
+    L[Nucleus] -->|mRNA export| B
+    
+    style A fill:#e1f5fe
+    style B fill:#b3e5fc
+    style C fill:#c8e6c9
+    style D fill:#fff9c4
+    style G fill:#f8bbd0
+```
+
+### Diagram 3: 動作電位與離子通道
+
+```mermaid
+graph TD
+    subgraph "Ion Channels"
+        A[Voltage-gated Na⁺ channel]
+        B[Voltage-gated K⁺ channel]
+    end
+    
+    subgraph "Membrane Potential Phases"
+        P1[Resting: -70mV]
+        P2[Depolarization: +30mV]
+        P3[Repolarization: -90mV]
+        P4[Hyperpolarization]
+        P5[Return to rest]
+    end
+    
+    A -->|Opens fast| P2
+    P2 -->|Na⁺ channel inactivation| P3
+    B -->|Delayed K⁺ opening| P3
+    P3 -->|K⁺ efflux| P4
+    P4 -->|Na⁺ channel reset| P5
+    P5 -->|K⁺ channel closing| P1
+    
+    style P1 fill:#e1f5fe
+    style P2 fill:#ffcdd2
+    style P3 fill:#c8e6c9
+    style P4 fill:#b3e5fc
+    style P5 fill:#e1f5fe
+```
+
+### Diagram 4: 細胞周期與細胞分裂
+
+```mermaid
+gantt
+    title Cell Cycle
+    dateFormat  X
+    axisFormat  %s h
+    
+    section G1
+    Cell growth           :g1, 0, 10h
+    section S
+    DNA replication       :s, 10, 16h
+    section G2
+    Preparation for mitosis :g2, 16, 22h
+    section M
+    Mitosis              :m, 22, 24h
+    Cytokinesis          :c, 23, 24h
+```
+
+### Diagram 5: 離子泵與膜電位維持
+
+```mermaid
+graph LR
+    subgraph "Ion Distribution"
+        OUT[Outside: Na⁺=150mM, K⁺=5mM, Ca²⁺=1.5mM]
+        IN[Inside: Na⁺=15mM, K⁺=150mM, Ca²⁺=100nM]
+    end
+    
+    subgraph "Transporters"
+        NAP[Na⁺/K⁺-ATPase<br/>3Na⁺ out, 2K⁺ in<br/>1 ATP]
+        NCX[Na⁺/Ca²⁺ exchanger<br/>3Na⁺ in, 1Ca²⁺ out<br/>Passive]
+        HATP[H⁺-ATPase<br/>1H⁺ out<br/>1 ATP]
+    end
+    
+    subgraph "Equilibrium Potentials"
+        EK[K⁺ equilibrium: -90mV]
+        ENa[Na⁺ equilibrium: +60mV]
+        ECa[Ca²⁺ equilibrium: +120mV]
+    end
+    
+    OUT -->|Primary active| NAP
+    IN -->|Primary active| NAP
+    NAP -.->|Creates gradient| OUT
+    NAP -.->|Creates gradient| IN
+    
+    style NAP fill:#ff7043
+    style OUT fill:#e3f2fd
+    style IN fill:#fff3e0
+```
+
+---
+
+## 附錄: 關鍵術語表 (Bilingual Glossary)
+
+| English | 中文 | 定義 |
+|---------|------|------|
+| Fluid Mosaic Model | 流動鑲嵌模型 | 膜結構模型，蛋白質如島嶼漂浮在磷脂雙層中 |
+| Phospholipid bilayer | 磷脂雙層 | 細胞膜的基礎結構 |
+| Amphipathic | 兩親性 | 同時具有親水和疏水區域 |
+| Integral membrane protein | 整合膜蛋白 | 跨越磷脂雙層的蛋白質 |
+| Peripheral membrane protein | 周邊膜蛋白 | 附著於膜表面的蛋白質 |
+| Glycocalyx | 糖萼 | 細胞表面的糖類覆蓋層 |
+| Cytoskeleton | 細胞骨架 | 細胞內的蛋白質纖維網絡 |
+| Microtubule | 微管 | 由tubulin組成的空心管狀結構 |
+| Actin filament | 微絲 | 由actin組成的螺旋狀結構 |
+| Motor protein | 馬達蛋白 | 利用ATP水解沿細胞骨架移動的蛋白質 |
+| Passive transport | 被動轉運 | 不消耗能量的跨膜物質移動 |
+| Active transport | 主動轉運 | 消耗能量的跨膜物質移動 |
+| Osmosis | 滲透 | 水分子通過半透膜的擴散 |
+| Endocytosis | 胞吞作用 | 細胞攝取外界物質的過程 |
+| Exocytosis | 胞吐作用 | 細胞分泌物質的過程 |
+| Receptor | 受體 | 識別特定信號分子的蛋白質 |
+| Second messenger | 第二信使 | 細胞內傳遞信號的小分子 |
+| Resting membrane potential | 靜息膜電位 | 未興奮細胞的跨膜電位差 |
+| Depolarization | 去極化 | 膜電位向正值變化 |
+| Repolarization | 復極化 | 膜電位恢復到靜息水平 |
