@@ -110,6 +110,7 @@
 04_Phase4_Advanced_Research/W23_Capstone_Sprint/code/README.md
 04_Phase4_Advanced_Research/W23_Capstone_Sprint/deliverables/README.md
 04_Phase4_Advanced_Research/W23_Capstone_Sprint/notes/README.md
+04_Phase4_Advanced_Research/W23_Capstone_Sprint/quiz/README.md
 04_Phase4_Advanced_Research/W23_Capstone_Sprint/readings/README.md
 04_Phase4_Advanced_Research/W24_Capstone_PGPrep/code/README.md
 04_Phase4_Advanced_Research/W24_Capstone_PGPrep/deliverables/README.md
