@@ -1,0 +1,92 @@
+[
+  {
+    "file": "./00_Planning/README_Planning.md",
+    "score": 97,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 7,
+      "G2_format": 15,
+      "G3_citations": 15,
+      "G4_specificity": 15,
+      "G5_bilingual": 10,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 0,
+      "G10_no_template": 5
+    },
+    "lines": 376
+  },
+  {
+    "file": "./Agents/BME_Tutor.md",
+    "score": 97,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 15,
+      "G4_specificity": 15,
+      "G5_bilingual": 7,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 0,
+      "G10_no_template": 5
+    },
+    "lines": 450
+  },
+  {
+    "file": "./Agents/Code_Lab_Assistant.md",
+    "score": 97,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 15,
+      "G4_specificity": 15,
+      "G5_bilingual": 7,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 0,
+      "G10_no_template": 5
+    },
+    "lines": 502
+  },
+  {
+    "file": "./Agents/Paper_Scanner.md",
+    "score": 97,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 15,
+      "G4_specificity": 15,
+      "G5_bilingual": 7,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 0,
+      "G10_no_template": 5
+    },
+    "lines": 492
+  },
+  {
+    "file": "./Agents/Progress_Tracker.md",
+    "score": 97,
+    "decision": "APPROVED",
+    "gates": {
+      "G1_length": 10,
+      "G2_format": 15,
+      "G3_citations": 15,
+      "G4_specificity": 15,
+      "G5_bilingual": 7,
+      "G6_no_placeholder": 10,
+      "G7_mermaid": 10,
+      "G8_solutions": 10,
+      "G9_deep_dives": 0,
+      "G10_no_template": 5
+    },
+    "lines": 520
+  }
+]
